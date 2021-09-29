@@ -1,0 +1,84 @@
+.pagination.default {
+    display: inline-block;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.pagination.default>li {
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    border: solid 1px;
+    border-color: transparent;
+	height: 30px;
+	padding: 0 5px 0 5px;
+}
+.pagination.default>li:not(.prevNext) {
+    min-width: 30px !important;
+}
+
+.pagination.default>li>a  {
+	display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+	height: 100%;
+	text-align: center;
+	vertical-align:middle;
+	padding-top: 6px;
+	font-size: 13px;
+	background-color: transparent;
+    border: 0;
+	padding: 6px 0 0 0;
+    float: none;
+}
+.pagination.default>li:not(.disabled)>a  {
+	cursor: default;
+}
+
+.pagination.default>li.page {
+    background: #e9e9e9;
+    border-color: #c0c0c0;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+    cursor: default;
+    color: #717171;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+}
+
+.pagination.default>li.page:hover {
+    background: #fefefe;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#f0f0f0));
+    background: -moz-linear-gradient(0% 0% 270deg,#FEFEFE, #f0f0f0);
+}
+
+.pagination.default>li.page.current,.pagination.default>li.page.active {
+    border: none;
+    background: #616161;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+}
+
+.pagination.default>li.page.current a,.pagination.default>li.page.active a {
+    color: #f0f0f0;
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+}
+
+.pagination.default>li.page.disabled {
+    background: #fff;
+    border-color: #fff;
+    cursor: no-drop;
+}
+
+.pagination.default>li.page.prevNext {
+	height: 20px;
+	top: 5px;
+	position: relative;
+}
+
+.pagination.default>li.page.prevNext>a {
+    top: -5px;
+	position: relative;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,104 @@
+#global-loader {
+  background-color: rgba(59, 56, 56, 0.75);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+}
+
+#global-loader .loader-img {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  position: relative;
+  width: 250px;
+  top: 35%;
+}
+
+.back-to-top {
+  background-color: #a81225;
+  border-color: #a81225;
+  color: #ffffff;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  bottom: 30px;
+  height: 35px;
+  width: 35px;
+  right: 20px;
+  padding: 6px;
+  z-index: 1000;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.back-to-top.fade-in {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top i {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.md-tabs {
+    position: relative;
+    z-index: 1;
+    padding: .7rem;
+    margin-right: 1rem;
+    margin-bottom: -20px;
+    margin-left: 1rem;
+    background-color: #a81225;
+    border: 0;
+    color: #fff !important;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -ms-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -o-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.md-tabs .nav-link,
+.md-tabs .nav-item {
+    color: #fff;
+    border: 0;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    border-radius: .25rem;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.md-tabs .nav-link.active,
+.md-tabs .nav-item.open {
+    color: #fff;
+    border: 0;
+    background-color: rgba(0,0,0,0.2);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}

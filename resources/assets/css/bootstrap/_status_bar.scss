@@ -1,0 +1,47 @@
+@import "../variables";
+
+.status-bar{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #f1f1f1;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: initial;
+    height: 41px;
+    width: 100%;
+
+    .status-bar-icon {
+        -webkit-border-radius: 4px 0px 0px 4px;
+        -moz-border-radius: 4px 0px 0px 4px;
+        -ms-border-radius: 4px 0px 0px 4px;
+        -o-border-radius: 4px 0px 0px 4px;
+        border-radius: 4px 0px 0px 4px;
+        float: left;
+        vertical-align: middle;
+        display: inline-flex;
+        height: 100%;
+        width: 15%;
+
+        i {
+            vertical-align: middle;
+            display: inline-flex;
+            margin: auto;
+            position: relative;
+            text-align: center;
+            color: $white;
+        }
+    }
+    
+    .status-bar-info {
+        float: left;
+        padding: 10px 10px 2px 10px;
+        display: block;
+        margin: auto;
+        position: relative;
+        color: $dark;
+        width: 85%;
+    }
+}
